@@ -56,7 +56,7 @@ our data before used for classification:
     * Optimizer
     * Loss Function
 - We are only tuning the learning rate in this project since the other hyperparameters will have slight to no effect on the model's performance.
-- You can find the model's performance for different learning rates in the [results]() folder 
+- You can find the model's performance for different learning rates in the [results](results) folder 
 ### Regularization using Dropout
 - Dropout is a regularization technique that randomly drops out some of the neurons in the network. This technique is used to prevent overfitting.
 - Dropout is applied to the hidden layers of the network. The dropout rate can be specified while initializing the network. The dropout rate is the probability of a neuron to be dropped out. The dropout rate is set to 0.4 in this project.
@@ -70,7 +70,7 @@ our data before used for classification:
     * Precision: 90%
     * Recall: 90%
     * F1 Score: 90%
-> Note: See [notebook]() for more details on the results.
+> Note: See [notebook](/Review_Classification.ipynb) for more details on the results.
 
 ## Contributers
 
