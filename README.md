@@ -18,10 +18,10 @@ This README.md file contains an overview of the project, it is recommended to op
   * [Contributers](#contributers)
 
 ## Dataset
-- The project needs a dataset for movies and TV shows reviews, [IMDb]**(https://www.imdb.com/)** is a popular website for movies and TV shows. It has a database of over 8 million movies and TV shows. Using a dataset from this website will be a good choice for the project to train our neural network and test it.
+- The project needs a dataset for movies and TV shows reviews, [IMDb](https://www.imdb.com/) is a popular website for movies and TV shows. It has a database of over 8 million movies and TV shows. Using a dataset from this website will be a good choice for the project to train our neural network and test it.
 
 ### IMDB Dataset
-- Instead of using the whole dataset, we will use a subset of the dataset. The dataset contains 50,000 reviews for movies and TV shows. The dataset is already balanced, meaning that it contains an equal number of positive and negative reviews. The dataset is available on [Kaggle]**(https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)**.
+- Instead of using the whole dataset, we will use a subset of the dataset. The dataset contains 50,000 reviews for movies and TV shows. The dataset is already balanced, meaning that it contains an equal number of positive and negative reviews. The dataset is available on [Kaggle](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
 ### Data Splitting
 - Since the dataset is already balanced, we will split the dataset into 70% training set, 20% validation set, 10% testing set . The training set will be used to train the neural network, validation set is used to further tune the hyperparameters and the testing set will be used to evaluate the neural network.
