@@ -1,7 +1,7 @@
 # Movies-Reviews-Classification
 A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using [PyTorch](https://pytorch.org/) and [BERT](https://arxiv.org/abs/1810.04805) as the feature extractor.
 
-This README.md file contains an overview of the project, it is recommended to open [notebook]() as it contains the code and further explanation for the results.
+This README.md file contains an overview of the project, it is recommended to open [notebook](blob/master/Review_Classification.ipynb) as it contains the code and further explanation for the results.
 
 ## Table of Contents
 - [Movies-Reviews-Classification](#movies-reviews-classification)
