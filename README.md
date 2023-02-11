@@ -76,9 +76,3 @@ our data before used for classification:
 ![image](https://user-images.githubusercontent.com/41492875/218091822-64f96317-e683-4ec4-88df-3e65fd7136e2.png)
 
 > Note: See [notebook](/Review_Classification.ipynb) for more details on the results.
-
-## Contributers
-
-- [Adham Mohamed](https://github.com/adhammohamed1)
-- [Mohamed Farid](https://github.com/MohamedFarid612)
-- [Yousef Kotp](https://github.com/yousefkotp)
