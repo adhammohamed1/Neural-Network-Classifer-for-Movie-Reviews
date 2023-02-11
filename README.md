@@ -75,4 +75,4 @@ our data before used for classification:
 
 ![image](https://user-images.githubusercontent.com/41492875/218091822-64f96317-e683-4ec4-88df-3e65fd7136e2.png)
 
-> Note: See [notebook](/Review_Classification.ipynb) for more details on the results.
+> Note: See [notebook](/movie-reviews-classification.ipynb) for more details on the results.
