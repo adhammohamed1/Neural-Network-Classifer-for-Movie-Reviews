@@ -65,7 +65,7 @@ our data before used for classification:
 - The model is able to classify the reviews with 93% accuracy on raw test data. On the other hand, the accuracy reached 90% when using the preprocessed data. This indicates that not all preprocessing steps are necessary for the model to perform well.
 
 ## Results
-- The model's performance on the raw test set is as follows:
+- The model's performance on the raw test set using learning rate = 5e-6 is as follows:
     * Accuracy: 93.6%
     * Precision: 94.2%
     * Recall: 92.92%
