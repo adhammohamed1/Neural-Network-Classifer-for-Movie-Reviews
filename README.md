@@ -1,7 +1,7 @@
 # Movies Reviews Classification
-A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using [PyTorch](https://pytorch.org/) and [BERT](https://arxiv.org/abs/1810.04805) as the feature extractor.
+A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using the [HuggingFace](https://huggingface.co/) framework and [PyTorch](https://pytorch.org/). Google's NLP model [BERT](https://arxiv.org/abs/1810.04805) was used in extracting the subword embeddings of the input and used the embeddings vector of its CLS token in the classification process.
 
-**Note:** This README.md file contains an overview of the project, it is recommended to open [notebook](/Review_Classification.ipynb) as it contains the code and further explanation for the results.
+**Note:** This README file contains an overview of the project, it is recommended to open [notebook](/movie-reviews-classification.ipynb) as it contains the code and further explanation for the results.
 
 ## Table of Contents
 - [Movies-Reviews-Classification](#movies-reviews-classification)
@@ -21,7 +21,7 @@ A neural network model for sentiment analysis of movie reviews using [IMDb](http
 - The project needs a dataset for movies and TV shows reviews, [IMDb](https://www.imdb.com/) is a popular website for movies and TV shows. It has a database of over 8 million movies and TV shows. Using a dataset from this website will be a good choice for the project to train our neural network and test it.
 
 ### IMDB Dataset
-- Instead of using the whole dataset, we will use a subset of the dataset. The dataset contains 50,000 reviews for movies and TV shows. The dataset is already balanced, meaning that it contains an equal number of positive and negative reviews. The dataset is available on [Kaggle](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
+- Instead of using the whole dataset, we will use a subset of the dataset. The dataset contains 50,000 reviews for movies and TV shows. The dataset is already balanced, meaning that it contains an equal number of positive and negative reviews. The dataset is available on Kaggle through this [link](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
 ### Data Splitting
 - Since the dataset is already balanced, we will split the dataset into 70% training set, 20% validation set, 10% testing set . The training set will be used to train the neural network, validation set is used to further tune the hyperparameters and the testing set will be used to evaluate the neural network.
@@ -31,7 +31,7 @@ A neural network model for sentiment analysis of movie reviews using [IMDb](http
 our data before used for classification:
     * Remove punctuation.
     * Remove stop words.
-    * Lowercase all characters.
+    * Convert all text to lowercase.
     * Lemmatization of words.
 - The data preprocessing is done using the [NLTK](https://www.nltk.org/) library.
 
@@ -55,7 +55,7 @@ our data before used for classification:
     * Activation Function
     * Optimizer
     * Loss Function
-- We are only tuning the learning rate in this project since the other hyperparameters will have slight to no effect on the model's performance.
+- We are only tuning the learning rate in this project.
 - You can find the model's performance for different learning rates in the [results](results) folder 
 ### Regularization using Dropout
 - Dropout is a regularization technique that randomly drops out some of the neurons in the network. This technique is used to prevent overfitting.
