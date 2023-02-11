@@ -1,4 +1,4 @@
-# Movies-Reviews-Classification
+# Movies Reviews Classification
 A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using [PyTorch](https://pytorch.org/) and [BERT](https://arxiv.org/abs/1810.04805) as the feature extractor.
 
 **Note:** This README.md file contains an overview of the project, it is recommended to open [notebook](/Review_Classification.ipynb) as it contains the code and further explanation for the results.
@@ -59,24 +59,26 @@ our data before used for classification:
 - You can find the model's performance for different learning rates in the [results](results) folder 
 ### Regularization using Dropout
 - Dropout is a regularization technique that randomly drops out some of the neurons in the network. This technique is used to prevent overfitting.
-- Dropout is applied to the hidden layers of the network. The dropout rate can be specified while initializing the network. The dropout rate is the probability of a neuron to be dropped out. The dropout rate is set to 0.4 in this project.
+- Dropout is applied to the hidden layers of the network. The dropout rate can be specified while initializing the network. The dropout rate is the probability of a neuron to be dropped out. The dropout probability is set to around 0.4 in this project.
 
 ## Model Evaluation
-- The model is able to classify the reviews with 93% accuracy on raw test data. On the other hand, the accuracy reached 90% when using the preprocessed data. This indicates that ot all preprocessing steps are necessary for the model to perform well.
+- The model is able to classify the reviews with 93% accuracy on raw test data. On the other hand, the accuracy reached 90% when using the preprocessed data. This indicates that not all preprocessing steps are necessary for the model to perform well.
 
 ## Results
 - The model's performance on the raw test set is as follows:
-    * Accuracy: 93%
-    * Precision: 90%
-    * Recall: 90%
-    * F1 Score: 90%
+    * Accuracy: 93.6%
+    * Precision: 94.2%
+    * Recall: 92.92%
+    * F1 Score: 93.5%
+ 
+- The confusion matrix:
+
+![image](https://user-images.githubusercontent.com/41492875/218091822-64f96317-e683-4ec4-88df-3e65fd7136e2.png)
+
 > Note: See [notebook](/Review_Classification.ipynb) for more details on the results.
 
 ## Contributers
 
-- [Yousef Kotp](https://github.com/yousefkotp)
-
-- [Mohamed Farid](https://github.com/MohamedFarid612)
-
 - [Adham Mohamed](https://github.com/adhammohamed1)
-
+- [Mohamed Farid](https://github.com/MohamedFarid612)
+- [Yousef Kotp](https://github.com/yousefkotp)
