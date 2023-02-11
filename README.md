@@ -1,5 +1,5 @@
 # Movies Reviews Classification
-A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using the [HuggingFace](https://huggingface.co/) framework and [PyTorch](https://pytorch.org/). Google's NLP model [BERT](https://arxiv.org/abs/1810.04805) was used in extracting the subword embeddings of the input and used the embeddings vector of its CLS token in the classification process.
+A neural network model for sentiment analysis of movie reviews using [IMDb](https://www.imdb.com/) dataset. The model is built using the [HuggingFace](https://huggingface.co/) framework and [PyTorch](https://pytorch.org/). Google's NLP model [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) was used in extracting the subword embeddings of the input and used the embeddings vector of its CLS token in the classification process.
 
 **Note:** This README file contains an overview of the project, it is recommended to open [notebook](/movie-reviews-classification.ipynb) as it contains the code and further explanation for the results.
 
